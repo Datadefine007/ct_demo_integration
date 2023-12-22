@@ -11,6 +11,5 @@ schema = StructType([ \
   ]) 
 df = spark.createDataFrame(data=data2,schema=schema)
 df.display()
-print("Finalize Output")
-
-
+# print("Finalize Output")
+print("hell indiaa")
