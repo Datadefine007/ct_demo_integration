@@ -12,3 +12,10 @@ schema = StructType([ \
 df = spark.createDataFrame(data=data2,schema=schema)
 # df.printSchema()
 df.display()
+
+
+a=[i for i in range(1,11)]
+d1=0
+for i in range(len(a)):
+    d1+=a[i]
+print(d1)
