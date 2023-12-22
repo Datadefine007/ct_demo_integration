@@ -10,21 +10,7 @@ schema = StructType([ \
     StructField("salary", IntegerType(), True) \
   ]) 
 df = spark.createDataFrame(data=data2,schema=schema)
-# df.printSchema()
 df.display()
+print("Finalize Output")
 
 
-a=[i for i in range(1,11)]
-d1=0
-for i in range(len(a)):
-    d1+=a[i]
-print(d1)
-
-
-
-d2="aeiou"
-d1=list(d2)
-d4=" ajay singh jadoun"
-for i in d1:
-  if i in d1:
-    print(i,end="")
